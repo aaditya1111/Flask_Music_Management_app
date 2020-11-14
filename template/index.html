@@ -1,0 +1,11 @@
+{% extends "bootstrap/base.html" %}
+{% block title %}Music Streamer{% endblock %}
+
+{% include 'search.html' %}
+
+{% block content %}
+    {% include 'songs.html' %}
+    {% include 'player.html' %}
+
+{% endblock %}
+
